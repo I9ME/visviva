@@ -1,0 +1,82 @@
+
+//==============================
+// Variables
+//==============================
+
+//== colors tests =================
+
+$color_1: #FFFFFF;
+$color_2: #561d9a;
+$color_3: #11c8de;
+$color_4: #DDDDDD;
+$color_5: #0794a5;
+$color_6: #f0f0f0;
+$color_7: #f0f0f0;
+$color_8: #CCCCCC;
+$color_9: #999999;
+$color_10: #777777;
+$color_11: #701cb5;
+$color_12: #000000;
+$color_13: #256fce;
+$color_14: #920ac8; //Roxo CTA
+$color_15: #888888; //Cinza Escuro
+$color_16: #ba4dff; //Roxo Claro
+$color_17: #510c81; //ROXO FORM
+$color_18: #96e4e2; //Insta
+$color_19: #ff4c52; //Youtube
+$color_20: #0154A7; //azul default
+$color_21: #cecece; //Cinza fale conosco
+
+//== Utilities =================
+//Colors
+$cor_lilas: #4f4872;
+$cor_yellow: #feb933;
+
+//Fonts
+$fontFamily: "Raleway";
+$font_size_text: 18px;
+$font_size_title_section: 30px;
+$font_size_subtitle_section: 20px;
+$font_size_title_item: 24px;
+$font_size_subtitle_item: 18px;
+
+//== Layout =====================
+//Regular Content
+$h_spacing: 4.166666666666667%;
+$v_spacing: 37.5px;
+
+//== Sizes =====================
+
+//Natural
+$numColumns: 24;
+$sizeColumns: 4.166666666666667%;
+$sizeColumns_px: 50px;
+
+
+
+//==============================
+// Components
+//==============================
+
+
+//customizer
+$header_height_m: 74px;
+$header_height: $header_height_m * 1.25;
+
+
+
+//==============================
+// Variables in queries
+//==============================
+
+
+$break-sm: 768px;
+$break-md: 960px;
+$break-lg: 1200px;
+$break-ex: 1400px;
+
+
+//==============================
+// Animate
+//==============================
+$time_animate: 0.5s; 

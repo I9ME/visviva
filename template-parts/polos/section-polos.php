@@ -1,0 +1,35 @@
+<section id="polos" class="Section Section--style1 Section--polos u-flex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter u-paddingHorizontal u-sizeFull">
+	<header class="Section-header">
+		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-alignCenter u-paddingBottom--inter--half u-marginBottom--inter">
+			Principais <strong>pilares</strong>
+		</h3>
+	</header>
+	<div class="Section-content u-flex u-flexAlignItemsCenter u-sizeFull u-paddingVertical">
+		<ul id="polos-carousel" class="Section-items u-flex u-flexJustifyContentCenter u-flexDirectionRow u-flexAlignItemsCenter u-sizeFull owl-carousel owl-theme u-sizeFull">
+			<li class="Section-items-item u-sizeFull">
+					<a href="<?php echo get_home_url(); ?>/centros-de-moda/sao-paulo/" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+						<i class="FigureIcon FigureIcon--meditation"></i>
+						<h3 class="Section-items-item-title u-size12of24 u-alignCenter u-paddingTop--inter--half">EXERCITAR O CORPO E A MENTE</h3>
+				    </a>
+			</li>
+			<li class="Section-items-item u-sizeFull">
+				<a href="<?php echo get_home_url(); ?>/centros-de-moda/belo-horizonte" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+					<i class="FigureIcon FigureIcon--apple"></i>
+					<h3 class="Section-items-item-title u-size12of24 u-alignCenter u-paddingTop--inter--half">COMER E BEBER MELHOR</h3>
+			    </a>
+			</li>
+			<li class="Section-items-item u-sizeFull">
+				<a href="<?php echo get_home_url(); ?>/centros-de-moda/maringa/" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+					<i class="FigureIcon FigureIcon--sun"></i>
+					<h3 class="Section-items-item-title u-size12of24 u-alignCenter u-paddingTop--inter--half">EXPLORAR LAZER E CULTURA</h3>
+			    </a>
+			</li>
+			<li class="Section-items-item u-sizeFull">
+				<a href="<?php echo get_home_url(); ?>/centros-de-moda/goiania/" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+					<i class="FigureIcon FigureIcon--tasks"></i>
+					<h3 class="Section-items-item-title u-size12of24 u-alignCenter u-paddingTop--inter--half">VIVER COM SAÚDE E NUTRIÇÃO</h3>
+			    </a>
+			</li>
+		</ul>
+	</div>
+</section>
