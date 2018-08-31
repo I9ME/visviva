@@ -353,17 +353,17 @@ class Custom_Post_Type_Image_Upload {
 		
 	// CASES
 	$labels_marcas = array(
-		"name" => __( "Marca de Roupa", "" ),
+		"name" => __( "Fornecedores", "" ),
 		"singular_name" => __( "Case", "" ),
-		"menu_name" => __( "Marcas de Roupa", "" ),
-		"all_items" => __( "Todas os marcas", "" ),
-		"add_new" => __( "Adicionar nova marca", "" ),
-		"add_new_item" => __( "Adicionar nova marca", "" ),
-		"edit_item" => __( "Editar marca", "" ),
-		"new_item" => __( "Nova marca", "" ),
-		"view_item" => __( "Visualizar marca", "" ),
-		"view_items" => __( "Visualizar marcas", "" ),
-		"search_items" => __( "Pesquisar marcas", "" ),
+		"menu_name" => __( "Fornecedores", "" ),
+		"all_items" => __( "Todos os fornecedores", "" ),
+		"add_new" => __( "Adicionar fornecedor", "" ),
+		"add_new_item" => __( "Adicionar novo fornecedor", "" ),
+		"edit_item" => __( "Editar fornecedor", "" ),
+		"new_item" => __( "Novo fornecedor", "" ),
+		"view_item" => __( "Visualizar fornecedor", "" ),
+		"view_items" => __( "Visualizar fornecedores", "" ),
+		"search_items" => __( "Pesquisar fornecedores", "" ),
 		"not_found" => __( "Sem resultados", "" ),
 		"not_found_in_trash" => __( "Sem resultados", "" ),
 		"parent_item_colon" => __( "Relacionados", "" ),
@@ -374,7 +374,7 @@ class Custom_Post_Type_Image_Upload {
 	);
 
 	$args_marcas = array(
-		"label" => __( "Marcas de Roupa", "" ),
+		"label" => __( "Fornecedores", "" ),
 		"labels" => $labels_marcas,
 		"description" => "",
 		"public" => true,
@@ -388,14 +388,14 @@ class Custom_Post_Type_Image_Upload {
 		"capability_type" => "post",
 		"map_meta_cap" => true,
 		"hierarchical" => true,
-		"rewrite" => array( "slug" => "marca-de-roupa", "with_front" => true ),
+		"rewrite" => array( "slug" => "fornecedores", "with_front" => true ),
 		"query_var" => true,
 		"menu_icon" => "dashicons-store",
 		"supports" => array( "title", "editor", "excerpt", "thumbnail"),
 		//'register_meta_box_cb' => 'noticias_meta_box'
 	);
 
-	register_post_type( "marca-de-roupa", $args_marcas );
+	register_post_type( "fornecedores", $args_marcas );
 
 	}
 
@@ -441,7 +441,7 @@ class Custom_Post_Type_Image_Upload {
 		if ( is_int( wp_is_post_revision( $post ) ) ) return;
 		if ( is_int( wp_is_post_autosave( $post ) ) ) return;
 		if ( ! current_user_can( 'edit_post', $post_id ) ) return;
-		if ( $post->post_type != 'marca-de-roupa' ) return;
+		if ( $post->post_type != 'fornecedores' ) return;
 			
 		$this->process_book_meta( $post_id, $post );
 	}
@@ -467,7 +467,7 @@ class Custom_Post_Type_Image_Upload {
 	 * Set a more appropriate placeholder text for the New Book title field
 	 */
 	public function enter_title_here( $text, $post ) {
-		if ( $post->post_type == 'marca-de-roupa' ) return __( 'Título da Marca' );
+		if ( $post->post_type == 'fornecedores' ) return __( 'Título da Marca' );
 		return $text;
 	}
 	
@@ -476,7 +476,7 @@ class Custom_Post_Type_Image_Upload {
 	 * Add and remove meta boxes from the edit page
 	 */
 	public function meta_boxes() {
-		add_meta_box( 'book-image', __( 'Campos Adicionais' ), array( &$this, 'book_image_meta_box' ), 'marca-de-roupa', 'normal', 'high' );
+		add_meta_box( 'book-image', __( 'Campos Adicionais' ), array( &$this, 'book_image_meta_box' ), 'fornecedores', 'normal', 'high' );
 	}
 	
 	
@@ -559,7 +559,7 @@ class Custom_Post_Type_Image_Upload {
             <td><input type="tel" size="80" name="field_phone" value="<?php echo $var_phone; ?>" /></td>
         </tr>
          <tr id="" class="contentTipo Div1 Div2 Div3">
-            <td style="width: 100%"><strong>Foto da Marca</strong></td>
+            <td style="width: 100%"><strong>Foto do fornecedor</strong></td>
             <td>
             	<img id="book_image" src="<?php echo $image_src ?>" style="max-width:280px;" />
 		<input type="hidden" name="upload_image_id" id="upload_image_id" value="<?php echo $image_id; ?>" />
@@ -744,18 +744,18 @@ add_action( 'init', 'create_my_taxonomies', 0 );
 
 function create_my_taxonomies() {
     register_taxonomy(
-        'centros-de-moda',
-        'marca-de-roupa',
+        'pilar',
+        'fornecedores',
         array(
             'labels' => array(
-                'name' => 'Centros de moda',
-                'add_new_item' => 'Adicionar novo centro',
-                'new_item_name' => "Novo Centro"
+                'name' => 'Pilares',
+                'add_new_item' => 'Adicionar novo pilar',
+                'new_item_name' => "Novo Pilar"
             ),
             'show_ui'           => true,
 	        'show_admin_column' => true,
 	        'query_var'         => true,
-	        'rewrite'           => array( 'slug' => 'centros-de-moda' ),
+	        'rewrite'           => array( 'slug' => 'pilar' ),
 	        'public' => true,
 	        'hierarchical' => true,
 	        'show_ui' => true,
@@ -768,68 +768,18 @@ function create_my_taxonomies() {
         )
     );
    register_taxonomy(
-        'generos',
-        'marca-de-roupa',
+        'servico',
+        'fornecedores',
         array(
             'labels' => array(
-                'name' => 'Gênero(s)',
-                'add_new_item' => 'Adicionar novo gênero',
-                'new_item_name' => "Novo Gênero"
+                'name' => 'Serviços',
+                'add_new_item' => 'Adicionar novo serviço',
+                'new_item_name' => "Novo Serviço"
             ),
             'show_ui'           => true,
 	        'show_admin_column' => true,
 	        'query_var'         => true,
-	        'rewrite'           => array( 'slug' => 'generos' ),
-	        'public' => true,
-	        'hierarchical' => true,
-	        'show_ui' => true,
-	        'show_in_nav_menus' => true,
-	        'query_var' => true,
-	        'publicly_queryable' => true,
-	        'capability_type' => 'post',
-	        'hierarchical' => true,
-	        'has_archive' => true
-        )
-    );
-
-   register_taxonomy(
-        'segmentos',
-        'marca-de-roupa',
-        array(
-            'labels' => array(
-                'name' => 'Segmento(s)',
-                'add_new_item' => 'Adicionar novo segmento',
-                'new_item_name' => "Novo Segmento"
-            ),
-            'show_ui'           => true,
-	        'show_admin_column' => true,
-	        'query_var'         => true,
-	        'rewrite'           => array( 'slug' => 'segmentos' ),
-	        'public' => true,
-	        'hierarchical' => true,
-	        'show_ui' => true,
-	        'show_in_nav_menus' => true,
-	        'query_var' => true,
-	        'publicly_queryable' => true,
-	        'capability_type' => 'post',
-	        'hierarchical' => true,
-	        'has_archive' => true
-        )
-    );
-
-    register_taxonomy(
-        'mix-de-produtos',
-        'marca-de-roupa',
-        array(
-            'labels' => array(
-                'name' => 'Mix de produtos',
-                'add_new_item' => 'Adicionar novo',
-                'new_item_name' => "Novo tipo de produto"
-            ),
-            'show_ui'           => true,
-	        'show_admin_column' => true,
-	        'query_var'         => true,
-	        'rewrite'           => array( 'slug' => 'mix-de-produtos' ),
+	        'rewrite'           => array( 'slug' => 'servicos' ),
 	        'public' => true,
 	        'hierarchical' => true,
 	        'show_ui' => true,
@@ -848,7 +798,7 @@ function create_my_taxonomies() {
 // Filter and Columns in postTypes
 //==================================
 
-add_filter( 'manage_edit-marca-de-roupa_columns', 'my_columns' );
+add_filter( 'manage_edit-fornecedores_columns', 'my_columns' );
 
 function my_columns( $columns ) {
     $columns['var_tipo'] = 'Tipo';
@@ -1043,9 +993,9 @@ if( is_page('blog') || is_page('materiais')  || is_page('videos') || is_category
 
 
 function title_page(){
-	if( is_post_type_archive('marca-de-roupa') ) {
+	if( is_post_type_archive('fornecedores') ) {
 
-		$title = 'Marcas de Roupa';
+		$title = 'Fornecedores';
 
 	}
 

@@ -848,20 +848,20 @@ strong {
 }
 
 .Section--style2 .Button--border {
-  border-color: #d9831f;
+  border-color: #ff8503;
   color: #FFFFFF;
   font-weight: bold;
 }
 
 .Section--style2 .Button--background {
   border-color: #ffd800;
-  background: #d9831f;
+  background: #ff8503;
   color: #FFFFFF;
   font-weight: bold;
 }
 
 .Section--style2 .Button--background.Button--border {
-  border-color: #d9831f;
+  border-color: #ff8503;
   color: #FFFFFF;
 }
 
@@ -1054,14 +1054,26 @@ strong {
 
 .Section--buscaRoupa .Section-header-title {
   color: #FFFFFF;
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .Section--buscaRoupa .Section-header-title {
+    font-size: 20px;
+  }
+}
+
 .Section--buscaRoupa .Section-header-subtitle {
-  color: #ffd800;
-  font-weight: normal;
-  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .Section--buscaRoupa .Section-header-subtitle {
+    font-size: 16px;
+  }
 }
 
 .Section--buscaRoupa .Section-items-item--lateralBar {
@@ -1264,7 +1276,7 @@ strong {
   width: 70px;
   height: 2px;
   content: "";
-  background: #d9831f;
+  background: #ff8503;
 }
 
 .Section--blog .Section-items-item-content-color1 {
@@ -1743,7 +1755,10 @@ strong {
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  .Site-header-branding {
+    width: 100%;
+  }
   .Site-header-functions {
     position: absolute;
     display: flex;
@@ -1864,6 +1879,13 @@ strong {
 .Intro .Captions {
   color: #FFFFFF;
   text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+  .Intro .Captions {
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+  }
 }
 
 .Intro .Captions--title {

@@ -9,12 +9,22 @@ if( is_home() || is_front_page() ){
 <section id="up" class="Section Section--intro Intro Intro--home Intro--background Section--buscaRoupa Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter" data-stellar-background-ratio="0.3">	
 	
 
-	<div class=" u-paddingHorizontal u-paddingVertical u-size24of24 Captions u-positionRelative u-displayBlock u-maxSize--container u-alignCenterBox">
+	<div class="Section-content u-paddingVertical u-size24of24 Captions u-positionRelative u-displayFlex u-flexJustifyContentCenter u-maxSize--container u-alignCenterBox">
 
-		<div class="Captions u-paddingHorizontal--inter">
+		<div class="Captions u-size14of24 u-alignCenter">
 			<div class="Captions--header">
-				<h1 class="Section-header-title">Encontre marcas de moda para revender!</h1>
-				<h2 class="Section-header-subtitle">Conexão fácil e rápida com fabricantes por todo o Brasil</h2>
+				<h1 class="Section-header-title u-lineHeight150 u-paddingHorizontal--inter">PLATAFORMA QUE <strong>FACILITA</strong> O ACESSO AO <strong>SEU</strong> ESTILO DE <strong>VIDA SAUDÁVEL!</strong></h1>
+				<p class="Captions--subtitle u-lineHeight150">
+				Muitos pensam que <strong>ser saudável</strong> é algo complexo e caro, mas aqui no <strong>Vis Viva</strong> provamos que o <strong>lifestyle</strong> saudável pode ser acessível e <strong>fácil</strong> para todo mundo.
+			</p>
+			<a class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter is-animating u-borderRadius5 Button--mediumSize hover u-hasIcon u-isScrollDown" href="#" title="CADASTRE-SE">
+				CADASTRE-SE
+				<i class="u-icon">
+					<svg class="iconArrowRight u-icon is-animating">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#iconArrowRight"></use>
+					</svg>
+				</i>
+			</a>
 			</div>
 				
 		</div>

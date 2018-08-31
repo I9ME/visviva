@@ -17,15 +17,11 @@
 		<?php if ( is_home() || is_front_page() ) { ?>
 		
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#polos">POLOS</a>
+			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#polos">PRINCIPAIS PILARES</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#segmentos">SEGMENTOS</a>
-		</li>
-
-		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#marcas">MARCAS</a>
+			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#segmentos">O VIS VIVA</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">

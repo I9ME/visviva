@@ -11,9 +11,9 @@
 	&-functions{
 		display: none;
 	}
-	@media screen and (min-width: $break-sm){
+	@media screen and (max-width: $break-sm){
 		&-branding{
-			//flex:1;
+			width: 100%;
 		}
 		&-functions{
 			position: absolute;

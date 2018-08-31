@@ -16,7 +16,7 @@
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/medite2-min.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
-							<h4 class="Section-items-item-title u-paddingLeft paddingHorizontal--vrt--inter--half--px">MEDITAÇÃO</h4>
+							<h4 class="Section-items-item-title u-paddingLeft paddingHorizontal--vrt--inter--half--px">YOGA</h4>
 						</figcaption>
 					</figure>
 				</a>
@@ -55,9 +55,9 @@
 			<li class="Section-items-item">
 				<a href="<?php echo get_home_url(); ?>/segmentos/oculos/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
-						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/exc2-min.jpg">
+						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/feira.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
-							<h4 class="Section-items-item-title u-paddingLeft paddingHorizontal--vrt--inter--half--px">EXCURSÕES</h4>
+							<h4 class="Section-items-item-title u-paddingLeft paddingHorizontal--vrt--inter--half--px">FEIRAS SAUDÁVEIS</h4>
 						</figcaption>
 					</figure>
 				</a>
@@ -65,9 +65,9 @@
 			<li class="Section-items-item">
 				<a href="<?php echo get_home_url(); ?>/segmentos/moda-masculina/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
-						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/cozinha2-min.jpg">
+						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/functi.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
-							<h4 class="Section-items-item-title u-paddingLeft paddingHorizontal--vrt--inter--half--px">HÁBITOS SAUDÁVEIS</h4>
+							<h4 class="Section-items-item-title u-paddingLeft paddingHorizontal--vrt--inter--half--px">TREINO FUNCIONAL</h4>
 						</figcaption>
 					</figure>
 				</a>
@@ -85,6 +85,6 @@
 		</ul>
 	</div>
 	<div class="Section-content u-paddingTop--inter u-sizeFull u-displayFlex u-flexJustifyContentCenter">
-		<a href="<?php echo get_home_url(); ?>/segmentos/" class="Button--todos Button--mediumSize hover ButtonLink u-borderRadius5 is-animating u-alignCenter">Veja todos os <strong>segmentos</strong></a>
+		<a href="<?php echo get_home_url(); ?>/segmentos/" class="Button--todos Button--mediumSize hover ButtonLink u-borderRadius5 is-animating u-alignCenter">Veja todos os <strong>serviços</strong></a>
 	</div>
 </section>
