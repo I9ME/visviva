@@ -1780,7 +1780,7 @@ strong {
 }
 
 .Site-header--headerRpa {
-  background: #7fcc73;
+  background: linear-gradient(to right, #70aa8e, #b5cf6d);
   position: relative;
 }
 
@@ -1788,6 +1788,14 @@ strong {
   .Site-header--headerRpa {
     background: none;
     position: absolute !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Site-header--headerRpa {
+    position: fixed !important;
+    top: 0;
+    left: 0;
   }
 }
 
@@ -1826,10 +1834,16 @@ strong {
 .Intro--home {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
   padding-top: 0px;
+  background-position: center center;
   height: auto;
-  min-height: 100vh;
+}
+
+@media screen and (min-width: 960px) {
+  .Intro--home {
+    min-height: 100vh;
+    padding-top: 37.5%;
+  }
 }
 
 .Intro--home video {
@@ -1845,12 +1859,13 @@ strong {
 @media screen and (max-width: 768px) {
   .Intro--home {
     padding-bottom: 10%;
+    padding-top: 130px;
   }
 }
 
 .Intro--background {
   background-repeat: no-repeat;
-  background-color: #7fcc73;
+  background: linear-gradient(to right, #70aa8e, #b5cf6d);
 }
 
 @media screen and (min-width: 960px) {
@@ -1883,8 +1898,8 @@ strong {
 
 @media screen and (min-width: 960px) {
   .Intro .Captions {
-    padding-top: 37.5px;
-    padding-bottom: 37.5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 }
 
@@ -2305,6 +2320,10 @@ strong {
 
 .u-flexAlignItemsFlexStart {
   align-items: flex-start;
+}
+
+.u-flexAlignItemsFlexEnd {
+  align-items: flex-end;
 }
 
 .u-flexWrapWrap {
@@ -4048,6 +4067,12 @@ th.u-isShown {
 .Navigation--menu {
   position: fixed;
   left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .Navigation--menu {
+    background-color: #ff8503 !important;
+  }
 }
 
 .Navigation--menu .Navigation--subMenu {

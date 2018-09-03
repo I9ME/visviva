@@ -92,7 +92,7 @@ $(function(){
 $('#polos-carousel').owlCarousel({
     loop:true,
     dots: true,
-    nav: true,
+    nav: false,
     responsiveClass: true,
     responsive:{
         0:{

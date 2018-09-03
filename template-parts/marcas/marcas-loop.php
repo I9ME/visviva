@@ -1,7 +1,7 @@
 <?php 
 			if(is_single()){
 				
-				$newsArgs = array( 'post_type' => 'fornecedores', 'posts_per_page' => 3, 'orderby' => 'date', 'order' => 'ASC'); 
+				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 3, 'orderby' => 'date', 'order' => 'ASC'); 
 			
 			} elseif( is_tax('pilar') ) {
 				// paginação
@@ -9,7 +9,7 @@
 
 				$tax_slug = 'pilar';
 
-				$newsArgs = array( 'post_type' => 'fornecedores', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC', 'tax_query' => array(  array( 'taxonomy'  => $tax_slug, 'field' => 'slug','terms' => get_queried_object()->slug,),),);
+				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC', 'tax_query' => array(  array( 'taxonomy'  => $tax_slug, 'field' => 'slug','terms' => get_queried_object()->slug,),),);
 
 
 			} elseif( is_tax('servico') ) {
@@ -18,14 +18,14 @@
 
 				$tax_slug = 'servico';
 
-				$newsArgs = array( 'post_type' => 'fornecedores', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC', 'tax_query' => array(  array( 'taxonomy'  => $tax_slug, 'field' => 'slug','terms' => get_queried_object()->slug,),),);
+				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC', 'tax_query' => array(  array( 'taxonomy'  => $tax_slug, 'field' => 'slug','terms' => get_queried_object()->slug,),),);
 			
 
 			} else {
 				// paginação
 				$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
-				$newsArgs = array( 'post_type' => 'fornecedores', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC');
+				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC');
 			
 			}
 			

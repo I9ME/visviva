@@ -61,28 +61,48 @@
 	  		</li>
 	  	</ul>
 	  	<ul class="Section-content-items u-paddingTop--inter">
-		 	<li class="Section-content-items-item u-paddingBottom--inter">
-	  			<h2 class="Section-content-items-item-title">Segmento(s)</h2>
+	  		<?php
+	  				$segmento = wp_get_post_terms($id, "pilar", array());
+					if($segmento != ""): 
+
+				?>
+						<li class="Section-content-items-item u-paddingBottom--inter">
+							<h2 class="Section-content-items-item-title">Pilar(es)</h2>
+				<?php
+			  					foreach ($segmento as $seg):
+			  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
+			  					endforeach;
+							endif;
+				?>
+
+
   				<?php
-  					$segmento = wp_get_post_terms($id, "segmentos", array());
-  					foreach ($segmento as $seg):
-  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
-  					endforeach
+	  				$segmento = wp_get_post_terms($id, "servico", array());
+					if($segmento != ""): 
+
 				?>
-	  		</li>
-	  		<li class="Section-content-items-item u-paddingBottom--inter">
-	  			<h2 class="Section-content-items-item-title">Polo(s) de Moda</h2>
-	  			<?php
-  					$segmento = wp_get_post_terms($id, "centros-de-moda", array());
-  					foreach ($segmento as $seg):
-  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
-  					endforeach
+						<li class="Section-content-items-item u-paddingBottom--inter">
+							<h2 class="Section-content-items-item-title">Sobre</h2>
+				<?php
+			  					foreach ($segmento as $seg):
+			  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
+			  					endforeach;
+							endif;
+
 				?>
-	  		</li>
-	  		<li class="Section-content-items-item">
-	  			<h2 class="Section-content-items-item-title">Sobre</h2>
-	  			<p class="Section-content-items-item-resume"><?php echo get_the_content() ?></p>
-	  		</li>
+
+				<?php
+	  				$segmento = get_the_content();
+					if($segmento != ""): 
+
+				?>
+						<li class="Section-content-items-item u-paddingBottom--inter">
+							<h2 class="Section-content-items-item-title">Serviço(s)</h2>
+				<?php
+								echo $segmento;
+							endif;
+
+				?>
 	  	</ul>
   	</div>
 </div>

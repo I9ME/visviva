@@ -1,5 +1,4 @@
 .Site-header{
-
 	&-line1{
 			display: flex;
 		    justify-content: space-between;
@@ -37,12 +36,17 @@
 ///*CUSTOMIZER*/
 
 	&--headerRpa{
-		background: $color_2;
+		background: linear-gradient(to right, $color_14, $color_16);;
 		position: relative;
 		@media screen and (min-width: $break-md){
 				background: none;
 				position: absolute !important;
 			}
+		@media screen and (max-width: $break-sm){
+			position: fixed !important;
+			top: 0;
+			left: 0;
+		}
 		& .Site-header{
 			&-content{
 				&-items{

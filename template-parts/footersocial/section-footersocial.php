@@ -5,7 +5,7 @@
 	<div class="Section-content u-marginTop--inter u-positionAbsolute u-displayFlex u-size20of24 u-flexAlignItemsCenter u-flexJustifyContentCenter u-onlyDesktop">
 		<ul class="Section-items u-displayFlex u-heightFull u-sizeFull u-positionRelative u-flexFlowWrap u-justifyContentCenter u-flexFollowSize">
 			<li class="u-size8of24 u-height3of10">
-				<a href="#">
+				<a href="https://www.facebook.com/visvivaclub/" target="_blank">
 					<div class="Section-items-item--face u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingHorizontal--vrt--inter u-heightFull">
 						<figure class="u-displayFlex u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
 							<i class="FigureIcon FigureIcon--face"></i>
@@ -15,7 +15,7 @@
 				</a>
 			</li>
 			<li class="u-size8of24 u-height3of10">
-				<a href="#">
+				<a href="https://www.instagram.com/visvivaclub/" target="_blank">
 					<div class="Section-items-item--insta u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingHorizontal--vrt--inter u-heightFull">
 						<figure class="u-displayFlex u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
 							<i class="FigureIcon FigureIcon--insta"></i>
@@ -25,7 +25,7 @@
 				</a>
 			</li>
 			<li class="u-size8of24 u-height3of10">
-				<a href="#">
+				<a href="https://www.youtube.com/channel/UC0-HM0oUXV5ZSv5Z6j_65Hw" target="_blank">
 					<div class="Section-items-item--yt u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingHorizontal--vrt--inter u-heightFull">
 						<figure class="u-displayFlex u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
 							<i class="FigureIcon FigureIcon--yt"></i>

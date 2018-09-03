@@ -2,7 +2,7 @@
 	<div class="Section-content">
 		<ul class="Section-items u-flex u-flexFlowWrap u-flexJustifyContentCenter">
 			<li class="Section-items-item">
-				<a class="Section-items-item-figure" href="<?php echo get_home_url(); ?>/segmentos/moda-praia/">
+				<a class="Section-items-item-figure" href="<?php echo get_home_url(); ?>/servicos/academias">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/gym2-min.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px is-animating">
@@ -12,7 +12,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="<?php echo get_home_url(); ?>/segmentos/moda-feminina/">
+				<a href="<?php echo get_home_url(); ?>/servicos/yoga">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/medite2-min.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -22,7 +22,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="<?php echo get_home_url(); ?>/segmentos/moda-masculina/">
+				<a href="<?php echo get_home_url(); ?>/servicos/restaurantes">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/rest2-min.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -33,7 +33,7 @@
 			</li>
 			<!-- MINI CTA -->
 			<li class="Section-items-item">
-				<a href="<?php echo get_home_url(); ?>/segmentos/roupas-para-festa/">
+				<a href="<?php echo get_home_url(); ?>/servicos/organicos">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/produtos-org2-min.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -43,7 +43,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="<?php echo get_home_url(); ?>/segmentos/bolsas-acessorios/">
+				<a href="<?php echo get_home_url(); ?>/servicos/eventos">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/show3-min.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -53,7 +53,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="<?php echo get_home_url(); ?>/segmentos/oculos/">
+				<a href="<?php echo get_home_url(); ?>/servicos/feiras-saudaveis">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/feira.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -63,7 +63,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="<?php echo get_home_url(); ?>/segmentos/moda-masculina/">
+				<a href="<?php echo get_home_url(); ?>/servicos/treino-funcional">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/functi.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -73,7 +73,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="<?php echo get_home_url(); ?>/segmentos/moda-infantil/">
+				<a href="<?php echo get_home_url(); ?>/servicos/nutricionistas">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/nutri2-min.jpg">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -85,6 +85,6 @@
 		</ul>
 	</div>
 	<div class="Section-content u-paddingTop--inter u-sizeFull u-displayFlex u-flexJustifyContentCenter">
-		<a href="<?php echo get_home_url(); ?>/segmentos/" class="Button--todos Button--mediumSize hover ButtonLink u-borderRadius5 is-animating u-alignCenter">Veja todos os <strong>serviços</strong></a>
+		<a href="<?php echo get_home_url(); ?>/servicos/" class="Button--todos Button--mediumSize hover ButtonLink u-borderRadius5 is-animating u-alignCenter">Veja todos os <strong>serviços</strong></a>
 	</div>
 </section>

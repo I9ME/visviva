@@ -21,7 +21,7 @@ get_header(); ?>
 			<?php
 				// Função que imprime o BreadCruumbs do YOAST SEO
 				if ( function_exists('yoast_breadcrumb') ) {
-				  yoast_breadcrumb( '</p><p id="breadcrumbs" class="Breadcrumbs u-paddingHorizontal--inter--half u-paddingVertical u-onlyDesktop">','</p><p>' );
+				  yoast_breadcrumb( '<p id="breadcrumbs" class="Breadcrumbs u-paddingHorizontal--inter--half u-paddingVertical u-onlyDesktop">','</p>' );
 				}
 			?>
 		</div>

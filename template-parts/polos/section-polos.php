@@ -7,25 +7,25 @@
 	<div class="Section-content u-flex u-flexAlignItemsCenter u-sizeFull u-paddingVertical">
 		<ul id="polos-carousel" class="Section-items u-flex u-flexJustifyContentCenter u-flexDirectionRow u-flexAlignItemsCenter u-sizeFull owl-carousel owl-theme u-sizeFull">
 			<li class="Section-items-item u-sizeFull">
-					<a href="<?php echo get_home_url(); ?>/centros-de-moda/sao-paulo/" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+					<a href="<?php echo get_home_url(); ?>/pilar/corpo-e-mente" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
 						<i class="FigureIcon FigureIcon--meditation"></i>
 						<h3 class="Section-items-item-title u-size12of24 u-alignCenter u-paddingTop--inter--half">EXERCITAR O CORPO E A MENTE</h3>
 				    </a>
 			</li>
 			<li class="Section-items-item u-sizeFull">
-				<a href="<?php echo get_home_url(); ?>/centros-de-moda/belo-horizonte" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+				<a href="<?php echo get_home_url(); ?>/pilar/comer-e-beber" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
 					<i class="FigureIcon FigureIcon--apple"></i>
 					<h3 class="Section-items-item-title u-size12of24 u-alignCenter u-paddingTop--inter--half">COMER E BEBER MELHOR</h3>
 			    </a>
 			</li>
 			<li class="Section-items-item u-sizeFull">
-				<a href="<?php echo get_home_url(); ?>/centros-de-moda/maringa/" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+				<a href="<?php echo get_home_url(); ?>//pilar/lazer-e-cultura" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
 					<i class="FigureIcon FigureIcon--sun"></i>
 					<h3 class="Section-items-item-title u-size12of24 u-alignCenter u-paddingTop--inter--half">EXPLORAR LAZER E CULTURA</h3>
 			    </a>
 			</li>
 			<li class="Section-items-item u-sizeFull">
-				<a href="<?php echo get_home_url(); ?>/centros-de-moda/goiania/" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+				<a href="<?php echo get_home_url(); ?>/pilar/saude-e-nutricao" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
 					<i class="FigureIcon FigureIcon--tasks"></i>
 					<h3 class="Section-items-item-title u-size12of24 u-alignCenter u-paddingTop--inter--half">VIVER COM SAÚDE E NUTRIÇÃO</h3>
 			    </a>

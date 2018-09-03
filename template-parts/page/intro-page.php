@@ -9,7 +9,7 @@ if( is_home() || is_front_page() ){
 <section id="up" class="Section Section--intro Intro Intro--home Intro--background Section--buscaRoupa Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter" data-stellar-background-ratio="0.3">	
 	
 
-	<div class="Section-content u-paddingVertical u-size24of24 Captions u-positionRelative u-displayFlex u-flexJustifyContentCenter u-maxSize--container u-alignCenterBox">
+	<div class="Section-content u-paddingHorizontal u-paddingVertical u-size24of24 Captions u-positionRelative u-displayFlex u-flexJustifyContentCenter u-maxSize--container u-alignCenterBox">
 
 		<div class="Captions u-size14of24 u-alignCenter">
 			<div class="Captions--header">

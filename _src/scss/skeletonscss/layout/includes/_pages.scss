@@ -6,10 +6,13 @@
 	&--home{
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center center;
 		padding-top: 0px;
+		background-position: center center;
 		height: auto;
-		min-height: 100vh;
+		@media screen and (min-width: $break-md){
+			min-height: 100vh;
+			padding-top: 37.5%;
+		}
 		& video{
 			display: none;
 		}
@@ -20,13 +23,14 @@
 		}
 		@media screen and (max-width: $break-sm){
 			padding-bottom: 10%;
+			padding-top: 130px;
 		}
 	}
 
 	&--background{
 		background-repeat: no-repeat;
 		//background-image: url('../images/Intro-revendedores-roupa-em-atacado--mobile.png');
-		background-color: $color_2;
+		background: linear-gradient(to right, $color_14, $color_16);
 		@media screen and (min-width: $break-md){
 			background-size: cover;
 			background-image: url('../images/Intro-fabricantes-roupa-em-atacado.png');
@@ -51,8 +55,8 @@
 		color: #FFFFFF;
 		text-align: center;
 		@media screen and (min-width: $break-md){
-			padding-top: 37.5px;
-			padding-bottom: 37.5px;
+			padding-top: 5%;
+			padding-bottom: 5%;
 		}
 		&--title{
 			line-height: 170%;

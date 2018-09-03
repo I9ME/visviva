@@ -17,40 +17,35 @@
 		<?php if ( is_home() || is_front_page() ) { ?>
 		
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#polos">PRINCIPAIS PILARES</a>
+			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="#polos">PRINCIPAIS PILARES</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#segmentos">O VIS VIVA</a>
+			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="#segmentos">O VIS VIVA</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#blog">BLOG</a>
+			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="#blog">BLOG</a>
 		</li>
 
 		<!-- <li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#sobre">SOBRE NÓS</a>
+			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="#sobre">SOBRE NÓS</a>
 		</li> -->
 
 	<?php } else { ?>
 
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#polos">POLOS</a>
+			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="<?echo get_home_url()?>/pilar">PRINCIPAIS PILARES</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#segmentos'">SEGMENTOS</a>
+			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="<?echo get_home_url()?>/servicos">O VIS VIVA</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#marcas">MARCAS</a>
+			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="https://www.visvivaclub.com.br/blog-vida-saudavel/" target="_blank">BLOG</a>
 		</li>
-
-		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating" href="<?php echo get_home_url(); ?>/#blog">BLOG</a>
-		</li>
-
 		
 
 	<?php } ?>
