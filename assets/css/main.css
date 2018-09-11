@@ -1422,6 +1422,23 @@ strong {
   padding-bottom: 5px;
 }
 
+.Section--newfooter .Section-content .Button {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.Section--newfooter .Section-content .Button:hover {
+  color: #70aa8e;
+}
+
+.Section--newfooter .Section-content .Button--background {
+  border-color: #70aa8e;
+  background: rgba(0, 0, 0, 0);
+  color: #70aa8e;
+  font-weight: bold;
+}
+
 .Section--newfooter .Section-items-item-title {
   color: #FFFFFF;
   font-size: 14px;

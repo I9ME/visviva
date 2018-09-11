@@ -1,9 +1,11 @@
 <section id="polos" class="Section Section--style1 Section--polos u-flex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter u-paddingHorizontal u-sizeFull">
-	<header class="Section-header">
-		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-alignCenter u-paddingBottom--inter--half u-marginBottom--inter">
-			Principais <strong>pilares</strong>
-		</h3>
-	</header>
+	<?php if ( is_home() || is_front_page() ): ?>
+		<header class="Section-header">
+			<h3 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-alignCenter u-paddingBottom--inter--half u-marginBottom--inter">
+				Para ser <strong>saudável</strong>
+			</h3>
+		</header>
+	<?php 	endif; ?>
 	<div class="Section-content u-flex u-flexAlignItemsCenter u-sizeFull u-paddingVertical">
 		<ul id="polos-carousel" class="Section-items u-flex u-flexJustifyContentCenter u-flexDirectionRow u-flexAlignItemsCenter u-sizeFull owl-carousel owl-theme u-sizeFull">
 			<li class="Section-items-item u-sizeFull">

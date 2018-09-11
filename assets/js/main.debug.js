@@ -91,8 +91,6 @@ $(function(){
 
 $('#polos-carousel').owlCarousel({
     loop:true,
-    dots: true,
-    nav: false,
     responsiveClass: true,
     responsive:{
         0:{
@@ -109,6 +107,7 @@ $('#polos-carousel').owlCarousel({
         960:{
             items:4,
             margin:0,
+            loop: false,
             //nav:true,
         }
     }
@@ -140,7 +139,7 @@ $('#produtos-carousel').owlCarousel({
 $('#blog-carousel').owlCarousel({
     loop:true,
     dots: true,
-    nav: true,
+    nav: false,
     responsiveClass: true,
     responsive:{
         0:{

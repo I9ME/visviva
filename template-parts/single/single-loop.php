@@ -67,7 +67,7 @@
 
 				?>
 						<li class="Section-content-items-item u-paddingBottom--inter">
-							<h2 class="Section-content-items-item-title">Pilar(es)</h2>
+							<h2 class="Section-content-items-item-title">Para</h2>
 				<?php
 			  					foreach ($segmento as $seg):
 			  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
@@ -82,7 +82,7 @@
 
 				?>
 						<li class="Section-content-items-item u-paddingBottom--inter">
-							<h2 class="Section-content-items-item-title">Sobre</h2>
+							<h2 class="Section-content-items-item-title">Serviço(s)</h2>
 				<?php
 			  					foreach ($segmento as $seg):
 			  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
@@ -97,7 +97,7 @@
 
 				?>
 						<li class="Section-content-items-item u-paddingBottom--inter">
-							<h2 class="Section-content-items-item-title">Serviço(s)</h2>
+							<h2 class="Section-content-items-item-title">Sobre</h2>
 				<?php
 								echo $segmento;
 							endif;

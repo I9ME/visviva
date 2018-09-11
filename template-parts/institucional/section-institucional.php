@@ -1,6 +1,6 @@
-<section id="sobre" class="Section--institucional u-flexFlowWrap u-displayFlex">
+<section class="Section--institucional u-flexFlowWrap u-displayFlex">
 	<div class="Section-subSection--sobre u-displayFlex u-flexDirectionColumn u-paddingHorizontal--vrt  u-size12of24">
-		<header class="Section-subSection-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
+		<header id="sobre" class="Section-subSection-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
 			<h3 class="Section-subSection-header-title">Sobre Nós</h3>
 		</header>
 		<div class="Section-subSection-content u-paddingTop--inter">
@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<div class="Section-subSection--faleConosco u-size12of24 u-paddingHorizontal--vrt">
-		<header class="Section-subSection-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
+		<header id="fale" class="Section-subSection-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
 			<h3 class="Section-subSection-header-title">Fale Conosco</h3>
 		</header>
 		<div class="Section-subSection-content">

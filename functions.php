@@ -374,7 +374,7 @@ class Custom_Post_Type_Image_Upload {
 	);
 
 	$args_marcas = array(
-		"label" => __( "marca-de-roupa", "" ),
+		"label" => __( "fornecedores", "" ),
 		"labels" => $labels_marcas,
 		"description" => "",
 		"public" => true,
@@ -388,14 +388,14 @@ class Custom_Post_Type_Image_Upload {
 		"capability_type" => "post",
 		"map_meta_cap" => true,
 		"hierarchical" => true,
-		"rewrite" => array( "slug" => "marca-de-roupa", "with_front" => true ),
+		"rewrite" => array( "slug" => "fornecedores", "with_front" => true ),
 		"query_var" => true,
 		"menu_icon" => "dashicons-store",
 		"supports" => array( "title", "editor", "excerpt", "thumbnail"),
 		//'register_meta_box_cb' => 'noticias_meta_box'
 	);
 
-	register_post_type( "marca-de-roupa", $args_marcas );
+	register_post_type( "fornecedores", $args_marcas );
 
 	}
 
@@ -441,7 +441,7 @@ class Custom_Post_Type_Image_Upload {
 		if ( is_int( wp_is_post_revision( $post ) ) ) return;
 		if ( is_int( wp_is_post_autosave( $post ) ) ) return;
 		if ( ! current_user_can( 'edit_post', $post_id ) ) return;
-		if ( $post->post_type != 'marca-de-roupa' ) return;
+		if ( $post->post_type != 'fornecedores' ) return;
 			
 		$this->process_book_meta( $post_id, $post );
 	}
@@ -467,7 +467,7 @@ class Custom_Post_Type_Image_Upload {
 	 * Set a more appropriate placeholder text for the New Book title field
 	 */
 	public function enter_title_here( $text, $post ) {
-		if ( $post->post_type == 'marca-de-roupa' ) return __( 'Título da Marca' );
+		if ( $post->post_type == 'fornecedores' ) return __( 'Título da Marca' );
 		return $text;
 	}
 	
@@ -476,7 +476,7 @@ class Custom_Post_Type_Image_Upload {
 	 * Add and remove meta boxes from the edit page
 	 */
 	public function meta_boxes() {
-		add_meta_box( 'book-image', __( 'Campos Adicionais' ), array( &$this, 'book_image_meta_box' ), 'marca-de-roupa', 'normal', 'high' );
+		add_meta_box( 'book-image', __( 'Campos Adicionais' ), array( &$this, 'book_image_meta_box' ), 'fornecedores', 'normal', 'high' );
 	}
 	
 	
@@ -745,7 +745,7 @@ add_action( 'init', 'create_my_taxonomies', 0 );
 function create_my_taxonomies() {
     register_taxonomy(
         'pilar',
-        'marca-de-roupa',
+        'fornecedores',
         array(
             'labels' => array(
                 'name' => 'Pilares',
@@ -769,7 +769,7 @@ function create_my_taxonomies() {
     );
    register_taxonomy(
         'servico',
-        'marca-de-roupa',
+        'fornecedores',
         array(
             'labels' => array(
                 'name' => 'Serviços',
@@ -798,7 +798,7 @@ function create_my_taxonomies() {
 // Filter and Columns in postTypes
 //==================================
 
-add_filter( 'manage_edit-marca-de-roupa_columns', 'my_columns' );
+add_filter( 'manage_edit-fornecedores_columns', 'my_columns' );
 
 function my_columns( $columns ) {
     $columns['var_tipo'] = 'Tipo';
@@ -993,7 +993,7 @@ if( is_page('blog') || is_page('materiais')  || is_page('videos') || is_category
 
 
 function title_page(){
-	if( is_post_type_archive('marca-de-roupa') ) {
+	if( is_post_type_archive('fornecedores') ) {
 
 		$title = 'Fornecedores';
 

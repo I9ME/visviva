@@ -23,7 +23,7 @@ get_header(); ?>
 			?>
 		</div>
 	<div class="u-alignCenterBox u-paddingVertical--hzt u-flex u-flexDirectionRow u-flexSwitchReverse--mobile u-flex u-positionRelative">
-<h1>SINGLE</h1>
+
 		<main class="Section Section--single u-sizeFull SiteMain-main">
 			<?php get_template_part('template-parts/single/single','loop');?>
 		</main>

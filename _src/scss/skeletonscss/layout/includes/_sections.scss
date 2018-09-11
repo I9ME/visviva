@@ -1289,6 +1289,22 @@
 						padding-bottom: 5px;
 					}
 				}
+				&-content{
+					& .Button{
+						color: $color_1;
+						font-size: 13px;
+						font-weight: normal;
+						&:hover{
+							color:$color_14;
+						}
+					}
+					& .Button--background{
+							border-color: $color_14;
+							background: rgba(0,0,0,0);
+							color: $color_14;
+							font-weight: bold;	
+					}	
+				}
 				&-items{
 					&-item{
 						&-title{

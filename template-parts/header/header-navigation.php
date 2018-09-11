@@ -17,7 +17,7 @@
 		<?php if ( is_home() || is_front_page() ) { ?>
 		
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="#polos">PRINCIPAIS PILARES</a>
+			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="#polos">PARA SER SAUDÁVEL</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
@@ -36,15 +36,15 @@
 
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="<?echo get_home_url()?>/pilar">PRINCIPAIS PILARES</a>
+			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url()?>/pilar">PARA SER SAUDÁVEL</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="<?echo get_home_url()?>/servicos">O VIS VIVA</a>
+			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url()?>/servicos">O VIS VIVA</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink e-Toglle u-isScrollDown u-positionRelative Item-level1 is-animating " href="https://www.visvivaclub.com.br/blog-vida-saudavel/" target="_blank">BLOG</a>
+			<a class="NavigationLink u-positionRelative Item-level1 is-animating" href="https://www.visvivaclub.com.br/blog-vida-saudavel/" target="_blank">BLOG</a>
 		</li>
 		
 

@@ -17,7 +17,7 @@ get_header(); ?>
 
 	
 	<div class="u-alignCenterBox u-displayFlex u-flexDirectionColumn">
-		<div class="u-maxSize--container u-alignCenterBox u-sizeFull">
+		<div class="u-maxSize--container u-displayFlex u-justifyContentCenter u-alignCenterBox u-sizeFull">
 			<?php
 				// Função que imprime o BreadCruumbs do YOAST SEO
 				if ( function_exists('yoast_breadcrumb') ) {
@@ -26,7 +26,7 @@ get_header(); ?>
 			?>
 		</div>
 		<main class="Section Section--internaSegmentos SiteMain-main u-maxSize--container">
-			<?php get_template_part('template-parts/pilar/pilar','loop');?>
+			<?php get_template_part('template-parts/polos/section','polos');?>
 		</main>
 	</div>
 
